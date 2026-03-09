@@ -10,14 +10,16 @@ The deployments were tested to verify service accessibility and basic Kubernetes
 
 ---
 
-# Repository Structure
+## Repository Structure
+
+```text
 cw-k8s-scripts
 │
 ├── cloud_vm_commands.sh
 ├── edge_vm_commands.sh
 ├── GenAI_troubleshooting.md
 ├── README.md
-└── screenshots
+└── screenshots/
     ├── cloud-minikube-get-svc-nodeport.png
     ├── cloud-minikube-loadbalancer-svc.png
     ├── cloud-minikube-nginx-loadbalancer-browser.png
@@ -25,7 +27,6 @@ cw-k8s-scripts
     ├── cloud-nginx-portforward-terminal.png
     ├── edge-k8s-browser-nginx.png
     └── edge-k8s-terminal-deploy-svc-portforward.png
-
 
 ---
 
