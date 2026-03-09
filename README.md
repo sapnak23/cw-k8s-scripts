@@ -18,13 +18,13 @@ cw-k8s-scripts
 ├── GenAI_troubleshooting.md
 ├── README.md
 └── screenshots
-├── cloud-minikube-get-svc-nodeport.png
-├── cloud-minikube-loadbalancer-svc.png
-├── cloud-minikube-nginx-loadbalancer-browser.png
-├── cloud-minikube-tunnel.png
-├── cloud-nginx-portforward-terminal.png
-├── edge-k8s-browser-nginx.png
-└── edge-k8s-terminal-deploy-svc-portforward.png
+    ├── cloud-minikube-get-svc-nodeport.png
+    ├── cloud-minikube-loadbalancer-svc.png
+    ├── cloud-minikube-nginx-loadbalancer-browser.png
+    ├── cloud-minikube-tunnel.png
+    ├── cloud-nginx-portforward-terminal.png
+    ├── edge-k8s-browser-nginx.png
+    └── edge-k8s-terminal-deploy-svc-portforward.png
 
 
 ---
