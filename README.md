@@ -1,32 +1,14 @@
-# CW K3s Scripts
+# Coursework 2 - Kubernetes for Cloud and Edge Network Functions
 
-This repository contains scripts and screenshots for setting up **K3s Kubernetes clusters** on cloud and edge VMs.  
+This repository contains scripts, screenshots, and troubleshooting documentation developed during the COMP5123M coursework.  
+The goal of the experiment was to deploy a simple network function (Nginx container) in two different Kubernetes environments:
 
-It includes deployment and service creation examples, as well as port-forwarding and NodePort/LoadBalancer configurations.
+- **Cloud-like environment:** Minikube
+- **Edge-like environment:** K3s
+
+The deployments were tested to verify service accessibility and basic Kubernetes functionality.
 
 ---
 
-## Repository Structure
+# Repository Structure
 
-## Deployment Results
-
-### Cloud Environment (Minikube)
-
-Nginx service deployed and exposed using LoadBalancer.
-
-![Minikube LoadBalancer Service](screenshots/cloud-minikube-loadbalancer-svc.png)
-
-Accessing the deployed Nginx service from the browser.
-
-![Nginx Browser Output](screenshots/cloud-minikube-nginx-loadbalancer-browser.png)
-
-
-### Edge Environment (K3s)
-
-Nginx deployment and service created on the edge VM.
-
-![Edge Kubernetes Deployment](screenshots/edge-k8s-terminal-deploy-svc-portforward.png)
-
-Successful access to the deployed Nginx service from the browser.
-
-![Edge Nginx Browser Output](screenshots/edge-k8s-browser-nginx.png)
