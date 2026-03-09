@@ -27,8 +27,8 @@ cw-k8s-scripts
     ├── cloud-nginx-portforward-terminal.png
     ├── edge-k8s-browser-nginx.png
     └── edge-k8s-terminal-deploy-svc-portforward.png
-
 ---
+```
 
 # Cloud Environment (Minikube)
 
