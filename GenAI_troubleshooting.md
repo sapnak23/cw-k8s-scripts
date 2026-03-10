@@ -1,7 +1,6 @@
 # GenAI Troubleshooting Log
 
-This file documents the limited use of GenAI tools during the coursework. 
-GenAI was used only to help understand error messages and configuration issues. 
+I used GenAI to help me understand few error messages and configuration issues. 
 All Kubernetes setup, scripts, and deployments were completed manually.
 
 | Problem | GenAI Suggestion | Solution Applied | Worked? |
@@ -11,4 +10,4 @@ All Kubernetes setup, scripts, and deployments were completed manually.
 
 ## Technical Opinion
 
-Using GenAI for troubleshooting was useful for interpreting error messages and suggesting possible fixes. However, the actual setup of the Kubernetes environments, creation of scripts, deployment of containers, and testing were done manually. GenAI was used only as a support tool to diagnose issues rather than to generate the coursework solution.
+Using GenAI for troubleshooting was useful for helping me understand the error messages and suggesting possible fixes. However, the actual setup of the Kubernetes environments, creation of scripts, deployment of containers, and testing were done manually. GenAI was used only as a support tool to diagnose issues.
