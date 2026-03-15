@@ -33,12 +33,12 @@ kubectl get svc
 # kubernetes   ClusterIP      10.96.0.1       <none>           443/TCP        37m
 # nginx-vnf    LoadBalancer   10.110.218.198  10.110.218.198   80:32004/TCP   34m
 
-# 9. Optional: use minikube tunnel to get LoadBalancer IP accessible externally
-# sudo minikube tunnel &
-# The LoadBalancer IP above (10.110.218.198) can now be used in browser or curl
+# 9. Use minikube tunnel to get LoadBalancer IP accessible externally
+ sudo minikube tunnel &
+ The LoadBalancer IP above (10.110.218.198) can now be used in browser or curl
 
 # 10. Port-forward to local for testing
 kubectl port-forward svc/nginx-vnf 8080:80
 
 # 11. Test via curl or browser
-# curl http://10.110.218.198  OR  http://localhost:8080
+Curl http://10.110.218.198  OR  http://localhost:8080
